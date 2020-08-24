@@ -13,6 +13,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     box-shadow: 5px 5px;
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 
@@ -22,49 +23,29 @@ img{
 
 .carousel{
     padding-bottom: 1%;
-    width: 70%;
-}
-
-button{
-    display: block;
-    align-self: center;
-}
-
-.website-button{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 50%;
-    margin-top: 5%;
-    background-color: white;
-    color: #ff00b8;
-    border: 2px solid #ff00b8;
-    font-size: 100%;
-    box-shadow: 5px 5px;
-}
-.github-button{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 50%;
-    margin-top: 5%;
-    background-color: white;
-    color: #ff00b8;
-    border: 2px solid #ff00b8;
-    font-size: 100%;
-    box-shadow: 5px 5px;
-}
-.linkedin-button{
-    width: 50%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: white;
-    color: #ff00b8;
-    border: 2px solid #ff00b8;
-    font-size: 100%;
-    box-shadow: 5px 5px;
+    width: 90%;
 }
 
 p{
     font-size: calc(3px + 2vmin);;
+}
+
+a.button {
+    appearance: button;
+    text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 55%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: white;
+    color: #ff00b8;
+    border: 2px solid #ff00b8;
+    font-size: 100%;
+    box-shadow: 5px 5px;
+}
+
+.buttons{
+    margin-top: 3%;
+    margin-bottom: 3%;
 }

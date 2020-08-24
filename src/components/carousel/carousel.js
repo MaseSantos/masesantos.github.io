@@ -39,11 +39,17 @@ class InfoCarousel extends Component {
                   </p>
                 </div>
               </center>
-              <div>
+              <div className="buttons">
                 <center>
-                  <button className="website-button">Website</button>
-                  <button className="github-button">Github</button>
-                  <button className="linkedin-button">LinkedIn</button>
+                  <a href="https://google.com" class="button">
+                    Website
+                  </a>
+                  <a href="https://github.com/MaseSantos" class="button">
+                    Github
+                  </a>
+                  <a href="https://github.com/MaseSantos" class="button">
+                    LinkedIn
+                  </a>
                 </center>
               </div>
             </Carousel>
