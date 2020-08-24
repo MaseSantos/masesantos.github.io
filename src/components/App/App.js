@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import Carousel from '../carousel/carousel';
 import './App.css';
 
 function App() {
@@ -7,20 +7,21 @@ function App() {
     <div className="App">
       <div className="App-header">
         <img src="images/profile-pic.png" className="App-logo" alt="logo" />
-        <p>
+        <h2>Mase Santos</h2>
+        <h5>Software Engineer | Shapeshifting Creative</h5>
+        <Carousel />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>
-          hey
-        </button>
-        <a
+        <button>hey</button> */}
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
       </div>
     </div>

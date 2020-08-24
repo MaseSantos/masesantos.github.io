@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import Carousel from 'react-material-ui-carousel';
-// import {Paper} from '@material-ui/core';
-// import PropTypes from "prop-types";
-// import { withStyles } from "@material-ui/core/styles";
-// import Button from "@material-ui/core/Button";
-import { connect } from 'react-redux';
 
 const styles = (theme) => ({
     main: {
@@ -35,4 +30,4 @@ class RecentUserOppCarousel extends Component {
 }
 
 
-export default connect(RecentUserOppCarousel);
+export default RecentUserOppCarousel;
