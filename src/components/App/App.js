@@ -6,23 +6,44 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <img src="images/profile-pic.png" className="App-logo" alt="logo" />
-        <h2>Mase Santos</h2>
-        <h5>Software Engineer | Shapeshifting Creative</h5>
-        <Carousel />
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <button>hey</button> */}
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img
+          src="images/profile-pic.png"
+          className="user-pic"
+          alt="Picture of Mase"
+        />
+        <div>
+          <h2 className="header">🔥 MASE SANTOS 🔥</h2>
+          <h5 className="subtitle">
+            Software Engineer | Shapeshifting Creative
+          </h5>
+        </div>
+        <Carousel className="carousel" />
+        <div>
+          <h3>Let's Get Social</h3>
+          <div className="important-links">
+            <img
+              src="images/social-icons-01.png"
+              alt="Twitter Link"
+              width="5%"
+            />
+            <img
+              src="images/social-icons-03.png"
+              alt="Instagram Link"
+              width="5%"
+            />
+            <img
+              src="images/social-icons-05.png"
+              alt="Girlboss Link"
+              width="5%"
+            />
+          </div>
+          {/* <img
+                  src="images/social-icons-06.png"
+                  alt="DEV Link"
+                  width="5%"
+                  height="5%"
+                /> */}
+        </div>
       </div>
     </div>
   );
