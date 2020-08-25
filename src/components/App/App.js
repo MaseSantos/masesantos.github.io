@@ -21,21 +21,27 @@ function App() {
         <div>
           <h3>Let's Get Social</h3>
           <div>
-            <img
-              className="important-links"
-              src={InstagramIcon}
-              alt="Instagram Logo"
-            />
-            <img
-              className="important-links"
-              src={TwitterIcon}
-              alt="Twitter Logo"
-            />
-            <img
-              className="important-links"
-              src={GirlbossIcon}
-              alt="Girlboss Logo"
-            />
+            <a href="https://www.instagram.com/the.midwest.mami/">
+              <img
+                className="important-links"
+                src={InstagramIcon}
+                alt="Instagram Logo"
+              />
+            </a>
+            <a href="https://twitter.com/themidwestmami">
+              <img
+                className="important-links"
+                src={TwitterIcon}
+                alt="Twitter Logo"
+              />
+            </a>
+            <a href="https://community.girlboss.com/masesantos">
+              <img
+                className="important-links"
+                src={GirlbossIcon}
+                alt="Girlboss Logo"
+              />
+            </a>
           </div>
           {/* <img
                   src="images/social-icons-06.png"
