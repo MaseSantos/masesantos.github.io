@@ -1,6 +1,9 @@
 import React from 'react';
 import Carousel from '../carousel/carousel';
 import './App.css';
+import InstagramIcon from "../../images/social-icons-03.png";
+import TwitterIcon from "../../images/social-icons-01.png";
+import GirlbossIcon from "../../images/social-icons-05.png";
 
 function App() {
   return (
@@ -20,6 +23,12 @@ function App() {
         <Carousel className="carousel" />
         <div>
           <h3>Let's Get Social</h3>
+          <img
+            className="important-links"
+            width="5%"
+            src={InstagramIcon}
+            alt="Instagram Logo"
+          />
           <div className="important-links">
             <a href="https://www.instagram.com/the.midwest.mami/">
               <img
