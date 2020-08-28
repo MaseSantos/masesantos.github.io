@@ -12,7 +12,7 @@ function App() {
       <div className="App-header">
         <img src={ProfilePic} className="user-pic" alt="Picture of Mase" />
         <div>
-          <h2 className="header">🔥 THE MIDWEST MAMI 🔥</h2>
+          <h2 className="header">🔥 MASE SANTOS 🔥</h2>
           <h5 className="subtitle">
             Software Engineer | Shapeshifting Creative
           </h5>
