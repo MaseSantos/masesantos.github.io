@@ -8,6 +8,8 @@ Mase Santos
 
 This application serves as a social media site for my social accounts, allowing users to be directed to my professional links on both mobile and desktop views. I decided to draw my original [Linktree](https://linktr.ee/) site as inspiration for the design, specifically tranferring over the background color, accent hot pink color, and button hierarchy. The most significant changes made were adding logo buttons for sites not included by Linktree (such as the [Girlboss](girlboss.com) website logo), making the site responsive to different window sizes (with mobile and desktop in mind), and creating a foundation to add customized links later should they be needed.
 
+Future edits will include adding Material UI buttons, adding new professional links, and changing styling as I see fit.
+
 ## Application Views
 
 ![Social App Mobile Views, with Bio and with Professional Links](./Social-App-Mobile-Views.JPG)
